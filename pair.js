@@ -75,13 +75,13 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "MALVIN-XD~" + string_session;
+                        let md = "Jinwoo-Bot:~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there MALVIN XD User! 👋🏻* 
+                        let desc = `*Hello there JIN User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using MALVIN-XD 🚩* 
+ *Thanks for using JINWOO-BOT 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
@@ -89,7 +89,7 @@ https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/kingmalvn/MALVIN-XD
+https://github.com/Kingmalvn/JINWOO-BOT
 
 > *© Powered BY ᴍᴀʟᴠɪɴ xᴍᴅ ɴᴇxᴜs 🚀*`; 
                         await sock.sendMessage(sock.user.id, {
