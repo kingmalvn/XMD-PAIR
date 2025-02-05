@@ -75,30 +75,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "Jinwoo-Bot:~" + string_session;
+                        let md = "kakashi-md:~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there JIN User! 👋🏻* 
+                        let desc = `*Hello there KAKASHI User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using JINWOO-BOT 🚩* 
+ *Thanks for using KAKASHI MD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+https://whatsapp.com/channel/0029VazncnIBPzjOc2r0Ed3S
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/Kingmalvn/JINWOO-BOT
+https://github.com/kingmalvn/KAKASHI-MD 
 
-> *© Powered BY ᴍᴀʟᴠɪɴ xᴍᴅ ɴᴇxᴜs 🚀*`; 
+> *© Powered BY  ɴᴇxᴜs 🚀*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "NexusTechx",
-thumbnailUrl: "https://files.catbox.moe/bddvfr.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z",
+thumbnailUrl: "https://files.catbox.moe/huc9il.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VazncnIBPzjOc2r0Ed3S",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy MALVIN-XD*\n\n ◦ *Github:* https://github.com/kingmalvn/MALVIN-XD`;
+                            let desc = `*Don't Share with anyone this code use for deploy KAKASHI-MD*\n\n ◦ *Github:* https://github.com/kingmalvn/KAKASHI-MD `;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "MALVIN-XD",
-thumbnailUrl: "https://files.catbox.moe/bddvfr.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z",
+title: "KAKASHI-XD",
+thumbnailUrl: "https://whatsapp.com/channel/0029VazncnIBPzjOc2r0Ed3S",
+sourceUrl: "https://whatsapp.com/channel/0029VazncnIBPzjOc2r0Ed3S",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
