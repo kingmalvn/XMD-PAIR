@@ -20,7 +20,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
  //   let num = req.query.number;
-    async function GIFTED_MD_PAIR_CODE() {
+    async function MALVIN_XD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -70,30 +70,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "kakshi-md:~" + string_session;
+                        let md = "MALVIN-XD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there KAKASHI MD User! 👋🏻* 
+                        let desc = `*Hello there MALVIN XD User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using KAKASHI MD 🚩* 
+ *Thanks for using MALVIN-XD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029VazncnIBPzjOc2r0Ed3S
+https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/kingmalvn/KAKASHI-MD 
+https://github.com/kingmalvn/MALVIN-XD 
 
-> *© Powered BY nexusTechX 🖤*`;
+> *© Powered BY Malvin King*`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: " 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://files.catbox.moe/huc9il.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VazncnIBPzjOc2r0Ed3S",
+thumbnailUrl: "https://files.catbox.moe/gld2vo.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -102,28 +102,28 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello there KAKASHI-MD User! 👋🏻* 
+                            let desc = `*Hello there MALVIN XD User! 👋🏻* 
 
 > Do not share your session id with anyone.
 
- *Thanks for using KAKASHI-MD 🚩* 
+ *Thanks for using MALVIN-XD 🚩* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029VazncnIBPzjOc2r0Ed3S
+https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/kingmalvn/KAKASHI-MD
+https://github.com/kingmalvn/MALVIN-XMD 
 
-> *© Powered BY NEXUS 🖤*`;
+> *© Powered BY Malvin King*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: " 𝖒𝖉 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/huc9il.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VazncnIBPzjOc2r0Ed3S",
+thumbnailUrl: "https://files.catbox.moe/gld2vo.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -140,7 +140,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    GIFTED_MD_PAIR_CODE();
+                    MALVIN_XD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -151,7 +151,7 @@ showAdAttribution: true
             }
         }
     }
-    await GIFTED_MD_PAIR_CODE();
+    await MALVIN_XD_PAIR_CODE();
 });
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");

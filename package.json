@@ -1,12 +1,12 @@
 {
-"name": "web-pair",
+"name": "malvin-pair",
     "version": "0.0.1",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name vajira-md",
-      "stop": "pm2 stop vajira-md",
-     "restart": "pm2 restart vajira-md"
+      "start": "pm2 start index.js --deep-monitoring --attach --name malvin",
+      "stop": "pm2 stop malvin",
+     "restart": "pm2 restart malvin"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",              
