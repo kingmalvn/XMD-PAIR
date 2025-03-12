@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: MALVIN
+    env: docker
+    region: Nairobi
+    plan: free
